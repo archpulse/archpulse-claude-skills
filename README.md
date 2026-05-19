@@ -28,7 +28,8 @@ A curated collection of infrastructure-grade skills to upgrade Claude Code from 
 2.  **Install all skills** to your workspace:
 
 ```bash
-for s in *.skill; do claude skills install "$s" --scope workspace; done
+mkdir -p ~/.claude/skills
+cp -r skills/* ~/.claude/skills/
 ```
 
 3.  **Reload Skills** in your interactive Claude session:

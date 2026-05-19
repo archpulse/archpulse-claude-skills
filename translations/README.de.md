@@ -55,6 +55,7 @@ Diese Skills nutzen **CodePulse**, **AST-Analyse** und die **Git-Historie** inte
 | **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Git-basierte logische Kopplung | Vergessene zugehörige Configs/Schemas |
 | **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Graphbasiertes gezieltes Testen | Ignorieren von Tests wegen langsamer Suites |
 | **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Isolierte VFS-Vorabprüfungen | Multi-File-Korrekturen, die das Repo zerstören |
+| **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Atomare konventionelle Commits | Unordentlicher Workspace und defekter git status |
 
 ---
 

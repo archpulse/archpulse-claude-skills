@@ -55,6 +55,7 @@ cp -r skills/* ~/.claude/skills/
 | **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Git 기반 논리적 결합 | 관련된 설정/스키마 누락 방지 |
 | **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | 그래프 기반 타겟 테스트 | 느린 테스트 수트로 인한 테스트 무시 |
 | **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | 격리된 VFS 사전 점검 | 저장소를 깨뜨리는 다중 파일 수정 |
+| **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | 원자적 컨벤셔널 커밋 | 지저분한 워크스페이스 및 손상된 git status |
 
 ---
 

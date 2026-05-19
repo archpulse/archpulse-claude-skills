@@ -55,6 +55,7 @@ Ces compétences utilisent de manière intensive **CodePulse**, l'**analyse AST*
 | **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Couplage logique basé sur Git | Oubli des configurations/schémas liés |
 | **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Tests ciblés basés sur le graphe | Tests ignorés à cause de suites lentes |
 | **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Vérifications VFS isolées | Corrections multi-fichiers qui cassent le repo |
+| **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Commits conventionnels atomiques | Espace de travail encombré et git status cassé |
 
 ---
 

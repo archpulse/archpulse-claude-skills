@@ -55,6 +55,7 @@ Tyto dovednosti agresivně využívají **CodePulse**, **AST analýzu** a **Git 
 | **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Logická vazba na bázi Gitu | Zapomenuté související konfigurace/schémata |
 | **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Cílené testování podle grafu | Ignorování testů kvůli pomalým sadám |
 | **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Izolované kontroly ve VFS | Úpravy mnoha souborů, které rozbijí repo |
+| **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Atomické konvenční commity | Nepořádek v workspace a nefunkční git status |
 
 ---
 

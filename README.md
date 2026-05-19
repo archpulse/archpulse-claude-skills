@@ -55,6 +55,7 @@ These skills aggressively leverage **CodePulse**, **AST Analysis**, and **Git Hi
 | **🔗 [Temporal Mapper](./docs/TEMPORAL_COUPLING.md)** | Git-based logical coupling | Forgetting related config/schemas |
 | **🎯 [Semantic Test Selector](./docs/TEST_SELECTOR.md)** | Graph-based targeted testing | Ignoring tests because of slow suites |
 | **🏗️ [Shadow Patch Simulator](./docs/SHADOW_PATCH.md)** | Isolated VFS pre-flight checks | Multi-file fixes that break the repo |
+| **📝 [Git Auto-Committer](./skills/git-auto-committer/SKILL.md)** | Atomic conventional commits | Messy workspace and broken git status |
 
 ---
 

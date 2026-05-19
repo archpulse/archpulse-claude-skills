@@ -55,6 +55,7 @@ cp -r skills/* ~/.claude/skills/
 | **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Логічний зв'язок на основі Git | Забуті пов'язані конфіги/схеми |
 | **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Таргетоване тестування за графом | Ігнорування тестів через повільні набори |
 | **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Ізольовані перевірки у VFS | Правки багатьох файлів, що ламають репо |
+| **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Атомарні конвенціональні коміти | Брудний простір та зламаний git status |
 
 ---
 

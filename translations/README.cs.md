@@ -28,7 +28,8 @@ Kurátorská kolekce dovedností na úrovni infrastruktury, která upgraduje Cla
 2.  **Nainstalujte všechny dovednosti** do svého pracovního prostoru:
 
 ```bash
-for s in *.skill; do claude skills install "$s" --scope workspace; done
+mkdir -p ~/.claude/skills
+cp -r skills/* ~/.claude/skills/
 ```
 
 3.  **Znovu načtěte dovednosti** ve své interaktivní relaci Claude:
@@ -79,7 +80,7 @@ Tato sada dovedností transformuje pracovní postup:
 
 ## 📄 Licence
 
-MIT License © 2026 AI Tooling Architects
+MIT License © 2026 Archpulse
 
 ---
 

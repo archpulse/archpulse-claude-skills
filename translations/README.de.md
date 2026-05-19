@@ -28,7 +28,8 @@ Eine kuratierte Sammlung von Skills auf Infrastruktur-Niveau, um Claude Code vom
 2.  **Installieren Sie alle Skills** in Ihrem Workspace:
 
 ```bash
-for s in *.skill; do claude skills install "$s" --scope workspace; done
+mkdir -p ~/.claude/skills
+cp -r skills/* ~/.claude/skills/
 ```
 
 3.  **Laden Sie die Skills neu** in Ihrer interaktiven Claude-Sitzung:
@@ -79,7 +80,7 @@ Dieses Skill-Pack transformiert den Workflow:
 
 ## 📄 Lizenz
 
-MIT License © 2026 AI Tooling Architects
+MIT License © 2026 Archpulse
 
 ---
 

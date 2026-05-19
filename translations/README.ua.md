@@ -28,7 +28,8 @@
 2.  **Встановіть усі навички** у свій робочий простір:
 
 ```bash
-for s in *.skill; do claude skills install "$s" --scope workspace; done
+mkdir -p ~/.claude/skills
+cp -r skills/* ~/.claude/skills/
 ```
 
 3.  **Перезавантажте навички** у вашій інтерактивній сесії Claude:
@@ -79,7 +80,7 @@ for s in *.skill; do claude skills install "$s" --scope workspace; done
 
 ## 📄 Ліцензія
 
-MIT License © 2026 AI Tooling Architects
+MIT License © 2026 Archpulse
 
 ---
 

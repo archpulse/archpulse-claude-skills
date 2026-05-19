@@ -28,7 +28,8 @@ Une collection de compétences de niveau infrastructure pour transformer Claude 
 2.  **Installez toutes les compétences** dans votre espace de travail :
 
 ```bash
-for s in *.skill; do claude skills install "$s" --scope workspace; done
+mkdir -p ~/.claude/skills
+cp -r skills/* ~/.claude/skills/
 ```
 
 3.  **Rechargez les compétences** dans votre session interactive Claude :
@@ -79,7 +80,7 @@ Ce pack de compétences transforme le flux de travail :
 
 ## 📄 Licence
 
-Licence MIT © 2026 AI Tooling Architects
+Licence MIT © 2026 Archpulse
 
 ---
 

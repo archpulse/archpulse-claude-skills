@@ -8,7 +8,7 @@
 
 Claude Code를 단순한 어시스턴트에서 신뢰할 수 있는 자율 엔지니어로 업그레이드하기 위한 인프라급 스킬 모음입니다.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![라이선스: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-624ad1?style=for-the-badge)](https://anthropic.com/claude)
 
 ---
@@ -45,11 +45,11 @@ cp -r skills/* ~/.claude/skills/
 이 스킬들은 **CodePulse**, **AST 분석**, **Git 히스토리**를 적극적으로 활용하여 AI 코딩의 핵심 페인 포인트를 해결합니다.
 
 | 스킬 | 핵심 개념 | 해결되는 문제 |
-|-------|----------------|------------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | 필수 멀티 엔진 검증 | 빌드를 깨뜨리는 "다 됐습니다"라는 주장 |
+|------|-----------|---------------|
+| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | 필수 멀티 엔진 검증 | 빌드를 깨뜨리는 "완료"라는 주장 |
 | **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | 전이적 의존성 분석 | 공통 코드의 숨겨진 회귀 오류 |
 | **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | 동적 경계 강제 적용 | 환각된 임포트 및 아키텍처 드리프트 |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | 레벤슈타인 기반 루프 중단 | 끝없이 반복되는 실패하는 수정 작업 |
+| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | 레벤슈타인 기반 루프 중단 | 끝없이 반복되는 실패하는 수정 시도 |
 | **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | 정밀한 AST 심볼 추출 | 큰 파일에서의 컨텍스트 비대화 및 노이즈 |
 | **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | 자율 TDD 재현 스크립트 | 객관적으로 증명되지 않은 수정 사항 |
 | **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Git 기반 논리적 결합 | 관련된 설정/스키마 누락 방지 |
@@ -62,11 +62,11 @@ cp -r skills/* ~/.claude/skills/
 
 기존의 AI 코딩은 종종 **"성급한 축하"**와 **"로컬 컨텍스트 맹목성"**으로 인해 어려움을 겪습니다.
 
-이 스킬 팩은 워크플로우를 다음과 같이 변화시킵니다:
+이 스킬 팩은 **Claude Code** 워크플로우를 다음과 같이 변화시킵니다:
 1.  **조사:** **Oracle**과 **Mapper**를 사용하여 보이지 않는 연쇄 효과를 파악합니다.
 2.  **계획:** **Simulator**를 사용하여 샌드박스에서 아키텍처 영향을 검증합니다.
 3.  **실행:** **Slicer**를 사용하여 노이즈가 적은 고정밀 편집을 수행합니다.
-4.  **검증:** 에이전트가 "완료"라고 말하기 전에 **Verifier**와 **Test Selector**를 사용하여 100% 신뢰성을 보장합니다.
+4.  **검증:** **Claude**가 "완료"라고 말하기 전에 **Verifier**와 **Test Selector**를 사용하여 100% 신뢰성을 보장합니다.
 
 ---
 

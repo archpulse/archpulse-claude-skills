@@ -1,26 +1,26 @@
 <div align="center">
 
-# 🧠 Pack de Compétences Élite pour Claude Code
+# 🧠 Claude Code Elite Skill Pack
 
-### 🚀 Capacités d'Ingénierie Autonome Avancées
+### 🚀 Capacités d'ingénierie autonome avancées
 
-**Gardiens Architecturaux • Vérification Zero-Trust • Précision Sémantique**
+**Gardiens d'architecture • Vérification Zero-Trust • Précision sémantique**
 
-Une collection de compétences de niveau infrastructure pour transformer Claude Code d'un simple assistant en un ingénieur autonome de confiance.
+Une collection de compétences de niveau infrastructure pour transformer Claude Code d'assistant en ingénieur autonome de confiance.
 
-[![Licence : MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-624ad1?style=for-the-badge)](https://anthropic.com/claude)
 
 ---
 
-### 🌍 Support Multi-Langues
+### 🌍 Support multi-langues
 [English](../README.md) | [Українська](./README.ua.md) | [Русский](./README.ru.md) | [Čeština](./README.cs.md) | [한국어](./README.ko.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md)
 
 </div>
 
 ---
 
-## ⚡ Démarrage Rapide
+## ⚡ Démarrage rapide
 
 ### Installation
 
@@ -40,37 +40,37 @@ cp -r skills/* ~/.claude/skills/
 
 ---
 
-## 🏆 Le Pack des Neuf Élites
+## 🏆 Le pack Elite Nine
 
-Ces compétences exploitent agressivement **CodePulse**, l'**Analyse AST** et l'**Historique Git** pour résoudre les points de douleur majeurs du codage par l'IA.
+Ces compétences utilisent de manière intensive **CodePulse**, l'**analyse AST** et l'**historique Git** pour résoudre les principaux problèmes du codage par IA.
 
-| Compétence | Concept Clé | Problème Résolu |
-|-------|----------------|------------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Vérification multi-moteurs obligatoire | Les affirmations "c'est fini" qui cassent le build |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Analyse des dépendances transitives | Régressions cachées dans le code partagé |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Application dynamique des limites | Imports hallucinés et dérive architecturale |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Interruption de boucle basée sur Levenshtein | Corrections défaillantes infinies et répétitives |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Extraction chirurgicale de symboles AST | Gonflement du contexte et bruit dans les gros fichiers |
-| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Scripts de repro TDD autonomes | Corrections qui ne sont pas objectivement prouvées |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Couplage logique basé sur Git | Oubli de schémas ou de configurations liés |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Tests ciblés basés sur les graphes | Tests ignorés à cause de suites trop lentes |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Vérifications pré-vol en VFS isolée | Corrections multi-fichiers qui cassent le dépôt |
+| Compétence | Concept clé | Problème résolu |
+|------------|-------------|-----------------|
+| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Vérification multi-moteur obligatoire | Prétentions "terminé" qui cassent le build |
+| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Analyse transitive des dépendances | Régressions cachées dans le code partagé |
+| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Respect dynamique des frontières | Imports hallucinés et dérive architecturale |
+| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Arrêt des boucles basé sur Levenshtein | Tentatives de correction répétitives infinies |
+| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Extraction chirurgicale de symboles AST | Gonflement du contexte et bruit dans les fichiers |
+| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Scripts de repro TDD autonomes | Corrections non prouvées objectivement |
+| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Couplage logique basé sur Git | Oubli des configurations/schémas liés |
+| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Tests ciblés basés sur le graphe | Tests ignorés à cause de suites lentes |
+| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Vérifications VFS isolées | Corrections multi-fichiers qui cassent le repo |
 
 ---
 
-## 🔍 Philosophie Centrale
+## 🔍 Philosophie centrale
 
-Le codage traditionnel par IA souffre souvent de **"célébration prématurée"** et de **"cécité au contexte local"**.
+Le codage par IA traditionnel souffre souvent de la **« célébration prématurée »** et de la **« cécité du contexte local »**. 
 
-Ce pack de compétences transforme le flux de travail :
-1.  **Recherche :** Utilisez l'**Oracle** et le **Mapper** pour voir les effets d'entraînement invisibles.
+Ce pack de compétences transforme le workflow de **Claude Code** :
+1.  **Recherche :** Utilisez **Oracle** et **Mapper** pour voir les effets de chaîne invisibles.
 2.  **Planification :** Utilisez le **Simulator** pour valider l'impact architectural dans un bac à sable.
-3.  **Exécution :** Utilisez le **Slicer** pour des éditions de haute précision et à faible bruit.
-4.  **Vérification :** Utilisez le **Verifier** et le **Test Selector** pour garantir une fiabilité à 100 % avant que Claude ne dise "Terminé".
+3.  **Exécution :** Utilisez le **Slicer** pour des modifications de haute précision avec peu de bruit.
+4.  **Vérification :** Utilisez **Verifier** et **Test Selector** pour garantir une fiabilité à 100% avant que **Claude** ne dise « Terminé ».
 
 ---
 
-## 🤖 Prérequis
+## 🤖 Exigences
 
 - **Claude Code** (dernière version)
 - **CodePulse MCP** (installé et en cours d'exécution)
@@ -80,7 +80,7 @@ Ce pack de compétences transforme le flux de travail :
 
 ## 📄 Licence
 
-Licence MIT © 2026 Archpulse
+MIT License © 2026 Archpulse
 
 ---
 

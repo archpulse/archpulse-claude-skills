@@ -1,14 +1,14 @@
 <div align="center">
 
-# 🧠 Sada elitních dovedností pro Claude Code
+# 🧠 Claude Code Elite Skill Pack
 
 ### 🚀 Pokročilé autonomní inženýrské schopnosti
 
-**Architektoničtí strážci • Zero-Trust ověřování • Sémantická přesnost**
+**Architektoničtí strážci • Zero-Trust verifikace • Sémantická přesnost**
 
-Kurátorská kolekce dovedností na úrovni infrastruktury, která upgraduje Claude Code z asistenta na důvěryhodného autonomního inženýra.
+Kurátorská kolekce dovedností na úrovni infrastruktury pro upgrade Claude Code z asistenta na důvěryhodného autonomního inženýra.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-624ad1?style=for-the-badge)](https://anthropic.com/claude)
 
 ---
@@ -42,38 +42,38 @@ cp -r skills/* ~/.claude/skills/
 
 ## 🏆 Elitní devítka
 
-Tyto dovednosti agresivně využívají **CodePulse**, **AST analýzu** a **historii Gitu** k řešení hlavních problémů AI při kódování.
+Tyto dovednosti agresivně využívají **CodePulse**, **AST analýzu** a **Git historii** k řešení hlavních problémů AI kódování.
 
-| Dovednost | Klíčový koncept | Vyřešený problém |
-|-------|----------------|------------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Povinné ověření více nástroji | Tvrzení "mám hotovo", která rozbíjejí build |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Analýza tranzitivních závislostí | Skryté regrese ve sdíleném kódu |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Dynamické vynucování hranic | Halucinované importy a architektonický drift |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Přerušení smyček na základě Levenshteinovy vzdálenosti | Nekonečné, opakující se neúspěšné opravy |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Chirurgická extrakce AST symbolů | Nafukování kontextu a šum ve velkých souborech |
+| Dovednost | Klíčový koncept | Řešený problém |
+|-----------|-----------------|----------------|
+| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Povinná multi-engine verifikace | Tvrzení „hotovo“, která rozbijí build |
+| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Tranzitivní analýza závislostí | Skryté regrese ve sdíleném kódu |
+| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Dynamické vynucování hranic | Halucinované importy a drift |
+| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Přerušení smyček na bázi Levenshteina | Nekonečné opakované pokusy o opravy |
+| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Chirurgická extrakce AST symbolů | Bobtnání kontextu a šum v souborech |
 | **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Autonomní TDD repro skripty | Opravy, které nejsou objektivně prokázány |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Logická vazba založená na Gitu | Zapomenuté související konfigurace/schémata |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Cílené testování založené na grafu | Ignorování testů kvůli pomalým sadám |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Izolované kontroly ve VFS | Vícesouborové opravy, které rozbíjejí repozitář |
+| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Logická vazba na bázi Gitu | Zapomenuté související konfigurace/schémata |
+| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Cílené testování podle grafu | Ignorování testů kvůli pomalým sadám |
+| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Izolované kontroly ve VFS | Úpravy mnoha souborů, které rozbijí repo |
 
 ---
 
 ## 🔍 Hlavní filozofie
 
-Tradiční AI kódování často trpí **"předčasnou oslavou"** a **"slepotou k lokálnímu kontextu"**.
+Tradiční AI kódování často trpí **„předčasnou oslavou“** a **„slepotou lokálního kontextu“**. 
 
-Tato sada dovedností transformuje pracovní postup:
-1.  **Průzkum:** Použijte **Oracle** a **Mapper** k odhalení neviditelných dominových efektů.
-2.  **Plánování:** Použijte **Simulator** k ověření architektonického dopadu v sandboxu.
-3.  **Provádění:** Použijte **Slicer** pro vysoce přesné úpravy s nízkým šumem.
-4.  **Ověření:** Použijte **Verifier** a **Test Selector** k zaručení 100% spolehlivosti předtím, než Claude řekne "Hotovo".
+Tento balíček dovedností transformuje pracovní postup **Claude Code**:
+1.  **Průzkum:** Použijte **Oracle** a **Mapper**, abyste viděli neviditelné řetězové efekty.
+2.  **Plánování:** Použijte **Simulator** k ověření architektonického dopadu v pískovišti.
+3.  **Provedení:** Použijte **Slicer** pro vysoce přesné úpravy s nízkým šumem.
+4.  **Ověření:** Použijte **Verifier** a **Test Selector** k zaručení 100% spolehlivosti dříve, než **Claude** řekne „Hotovo“.
 
 ---
 
 ## 🤖 Požadavky
 
-- **Claude Code** (nejnovější verze)
-- **CodePulse MCP** (nainstalováno a spuštěno)
+- **Claude Code** (poslední verze)
+- **CodePulse MCP** (nainstalován a spuštěn)
 - **Node.js 18+**
 
 ---
@@ -86,7 +86,7 @@ MIT License © 2026 Archpulse
 
 <div align="center">
 
-### ⭐ Nakopněte svůj Claude Code ještě dnes.
+### ⭐ Vylepšete svůj Claude Code ještě dnes.
 
 **Vyrobeno s ❤️ pro autonomní budoucnost**
 

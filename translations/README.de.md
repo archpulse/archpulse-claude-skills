@@ -6,9 +6,9 @@
 
 **Architektur-Wächter • Zero-Trust-Verifizierung • Semantische Präzision**
 
-Eine kuratierte Sammlung von Skills auf Infrastruktur-Niveau, um Claude Code vom Assistenten zum vertrauenswürdigen autonomen Ingenieur aufzustufen.
+Eine kuratierte Sammlung von Skills auf Infrastruktur-Niveau, um Claude Code vom Assistenten zum vertrauenswürdigen autonomen Ingenieur zu machen.
 
-[![Lizenz: MIT](https://img.shields.io/badge/Lizenz-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Lizenz: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude-Code-624ad1?style=for-the-badge)](https://anthropic.com/claude)
 
 ---
@@ -25,14 +25,14 @@ Eine kuratierte Sammlung von Skills auf Infrastruktur-Niveau, um Claude Code vom
 ### Installation
 
 1.  **Klonen oder laden** Sie dieses Repository herunter.
-2.  **Installieren Sie alle Skills** in Ihrem Workspace:
+2.  **Installieren Sie alle Skills** in Ihrem Arbeitsbereich:
 
 ```bash
 mkdir -p ~/.claude/skills
 cp -r skills/* ~/.claude/skills/
 ```
 
-3.  **Laden Sie die Skills neu** in Ihrer interaktiven Claude-Sitzung:
+3.  **Laden Sie die Skills** in Ihrer interaktiven Claude-Sitzung neu:
 
 ```bash
 /skills reload
@@ -40,33 +40,33 @@ cp -r skills/* ~/.claude/skills/
 
 ---
 
-## 🏆 Das Elite-Neuner-Pack
+## 🏆 Das Elite Nine Pack
 
-Diese Skills nutzen aggressiv **CodePulse**, **AST-Analyse** und die **Git-Historie**, um zentrale Probleme beim KI-gestützten Coding zu lösen.
+Diese Skills nutzen **CodePulse**, **AST-Analyse** und die **Git-Historie** intensiv, um die Kernprobleme der KI-Codierung zu lösen.
 
 | Skill | Kernkonzept | Gelöstes Problem |
-|-------|----------------|------------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Obligatorische Multi-Engine-Verifizierung | "Bin fertig"-Behauptungen, die Builds zerstören |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Transitive Abhängigkeitsanalyse | Versteckte Regressionen in shared Code |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Dynamische Durchsetzung von Grenzen | Halluzinierte Imports & Architektur-Drift |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Levenshtein-basierte Loop-Unterbrechung | Endlose, sich wiederholende fehlerhafte Fixes |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Chirurgische AST-Symbol-Extraktion | Kontext-Aufblähung & Rauschen in großen Dateien |
-| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Autonome TDD-Reproduktionsskripte | Fixes, die nicht objektiv bewiesen sind |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Git-basierte logische Kopplung | Vergessen von zugehörigen Konfigs/Schemas |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Graph-basierte gezielte Tests | Ignorieren von Tests wegen zu langsamer Suites |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Isolierte VFS-Vorabprüfungen | Multi-Datei-Fixes, die das Repo zerstören |
+|-------|-------------|------------------|
+| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Obligatorische Multi-Engine-Verifizierung | „Fertig“-Behauptungen, die den Build zerstören |
+| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Transitive Abhängigkeitsanalyse | Versteckte Regressionen in shared code |
+| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Dynamische Durchsetzung von Grenzen | Halluzinierte Importe & Architektur-Drift |
+| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Levenshtein-basierter Schleifenabbruch | Endlose, sich wiederholende Korrekturversuche |
+| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Chirurgische Extraktion von AST-Symbolen | Kontext-Aufblähung & Rauschen in großen Dateien |
+| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Autonome TDD-Repro-Skripte | Korrekturen, die nicht objektiv bewiesen sind |
+| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Git-basierte logische Kopplung | Vergessene zugehörige Configs/Schemas |
+| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Graphbasiertes gezieltes Testen | Ignorieren von Tests wegen langsamer Suites |
+| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Isolierte VFS-Vorabprüfungen | Multi-File-Korrekturen, die das Repo zerstören |
 
 ---
 
 ## 🔍 Kernphilosophie
 
-Traditionelles KI-gestütztes Coding leidet oft unter **"vorzeitiger Erfolgshoffnung"** und **"Blindheit für den lokalen Kontext"**.
+Herkömmliche KI-Codierung leidet oft unter **„vorzeitiger Feier“** und **„Blindheit für den lokalen Kontext“**. 
 
-Dieses Skill-Pack transformiert den Workflow:
-1.  **Recherche:** Nutzen Sie das **Oracle** und den **Mapper**, um unsichtbare Dominoeffekte zu erkennen.
+Dieses Skill Pack transformiert den **Claude Code** Workflow:
+1.  **Recherche:** Nutzen Sie **Oracle** und **Mapper**, um unsichtbare Ketteneffekte zu erkennen.
 2.  **Planung:** Nutzen Sie den **Simulator**, um architektonische Auswirkungen in einer Sandbox zu validieren.
-3.  **Ausführung:** Nutzen Sie den **Slicer** für hochpräzise, rauscharme Bearbeitungen.
-4.  **Verifizierung:** Nutzen Sie den **Verifier** und **Test Selector**, um 100%ige Zuverlässigkeit zu garantieren, bevor Claude "Fertig" sagt.
+3.  **Ausführung:** Nutzen Sie den **Slicer** für hochpräzise Edits mit geringem Rauschen.
+4.  **Verifizierung:** Nutzen Sie **Verifier** und **Test Selector**, um 100%ige Zuverlässigkeit zu garantieren, bevor **Claude** „Fertig“ sagt.
 
 ---
 
@@ -86,8 +86,8 @@ MIT License © 2026 Archpulse
 
 <div align="center">
 
-### ⭐ Beschleunigen Sie Ihr Claude Code noch heute.
+### ⭐ Boosten Sie Ihren Claude Code noch heute.
 
-**Mit ❤️ für die autonome Zukunft gemacht**
+**Hergestellt mit ❤️ für die autonome Zukunft**
 
 </div>

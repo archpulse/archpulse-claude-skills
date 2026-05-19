@@ -80,7 +80,7 @@ This skill pack transforms the **Claude Code** workflow:
 
 ## 📄 License
 
-MIT License © 2026 AI Tooling Architects
+MIT License © 2026 Archpulse
 
 ---
 

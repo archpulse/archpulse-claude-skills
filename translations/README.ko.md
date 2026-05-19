@@ -28,7 +28,7 @@ Claude Code를 단순한 어시스턴트에서 신뢰할 수 있는 자율 엔�
 2.  워크스페이스에 **모든 스킬을 설치**합니다:
 
 ```bash
-for s in *.skill; do gemini skills install "$s" --scope workspace; done
+for s in *.skill; do claude skills install "$s" --scope workspace; done
 ```
 
 3.  대화형 Claude 세션에서 **스킬을 다시 로드**합니다:

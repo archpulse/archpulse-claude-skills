@@ -28,7 +28,7 @@ A curated collection of infrastructure-grade skills to upgrade Claude Code from 
 2.  **Install all skills** to your workspace:
 
 ```bash
-for s in *.skill; do gemini skills install "$s" --scope workspace; done
+for s in *.skill; do claude skills install "$s" --scope workspace; done
 ```
 
 3.  **Reload Skills** in your interactive Claude session:
@@ -61,11 +61,11 @@ These skills aggressively leverage **CodePulse**, **AST Analysis**, and **Git Hi
 
 Traditional AI coding often suffers from **"Premature Celebration"** and **"Local Context Blindness"**. 
 
-This skill pack transforms the workflow:
+This skill pack transforms the **Claude Code** workflow:
 1.  **Research:** Use the **Oracle** and **Mapper** to see the invisible ripple effects.
 2.  **Plan:** Use the **Simulator** to validate architectural impact in a sandbox.
 3.  **Execute:** Use the **Slicer** for high-precision, low-noise edits.
-4.  **Verify:** Use the **Verifier** and **Test Selector** to guarantee 100% reliability before the agent says "Done".
+4.  **Verify:** Use the **Verifier** and **Test Selector** to guarantee 100% reliability before **Claude** says "Done".
 
 ---
 

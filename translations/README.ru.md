@@ -18,7 +18,7 @@
 2.  **Установите все навыки** в рабочее пространство:
 
 ```bash
-for s in *.skill; do gemini skills install "$s" --scope workspace; done
+for s in *.skill; do claude skills install "$s" --scope workspace; done
 ```
 
 3.  **Перезагрузите навыки** в интерактивной сессии Claude:

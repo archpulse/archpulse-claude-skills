@@ -28,7 +28,7 @@ Eine kuratierte Sammlung von Skills auf Infrastruktur-Niveau, um Claude Code vom
 2.  **Installieren Sie alle Skills** in Ihrem Workspace:
 
 ```bash
-for s in *.skill; do gemini skills install "$s" --scope workspace; done
+for s in *.skill; do claude skills install "$s" --scope workspace; done
 ```
 
 3.  **Laden Sie die Skills neu** in Ihrer interaktiven Claude-Sitzung:
@@ -65,7 +65,7 @@ Dieses Skill-Pack transformiert den Workflow:
 1.  **Recherche:** Nutzen Sie das **Oracle** und den **Mapper**, um unsichtbare Dominoeffekte zu erkennen.
 2.  **Planung:** Nutzen Sie den **Simulator**, um architektonische Auswirkungen in einer Sandbox zu validieren.
 3.  **Ausführung:** Nutzen Sie den **Slicer** für hochpräzise, rauscharme Bearbeitungen.
-4.  **Verifizierung:** Nutzen Sie den **Verifier** und **Test Selector**, um 100%ige Zuverlässigkeit zu garantieren, bevor der Agent "Fertig" sagt.
+4.  **Verifizierung:** Nutzen Sie den **Verifier** und **Test Selector**, um 100%ige Zuverlässigkeit zu garantieren, bevor Claude "Fertig" sagt.
 
 ---
 

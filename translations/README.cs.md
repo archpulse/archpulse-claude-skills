@@ -28,7 +28,7 @@ Kurátorská kolekce dovedností na úrovni infrastruktury, která upgraduje Cla
 2.  **Nainstalujte všechny dovednosti** do svého pracovního prostoru:
 
 ```bash
-for s in *.skill; do gemini skills install "$s" --scope workspace; done
+for s in *.skill; do claude skills install "$s" --scope workspace; done
 ```
 
 3.  **Znovu načtěte dovednosti** ve své interaktivní relaci Claude:
@@ -65,7 +65,7 @@ Tato sada dovedností transformuje pracovní postup:
 1.  **Průzkum:** Použijte **Oracle** a **Mapper** k odhalení neviditelných dominových efektů.
 2.  **Plánování:** Použijte **Simulator** k ověření architektonického dopadu v sandboxu.
 3.  **Provádění:** Použijte **Slicer** pro vysoce přesné úpravy s nízkým šumem.
-4.  **Ověření:** Použijte **Verifier** a **Test Selector** k zaručení 100% spolehlivosti předtím, než agent řekne "Hotovo".
+4.  **Ověření:** Použijte **Verifier** a **Test Selector** k zaručení 100% spolehlivosti předtím, než Claude řekne "Hotovo".
 
 ---
 

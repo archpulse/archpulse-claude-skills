@@ -28,7 +28,7 @@ Une collection de compétences de niveau infrastructure pour transformer Claude 
 2.  **Installez toutes les compétences** dans votre espace de travail :
 
 ```bash
-for s in *.skill; do gemini skills install "$s" --scope workspace; done
+for s in *.skill; do claude skills install "$s" --scope workspace; done
 ```
 
 3.  **Rechargez les compétences** dans votre session interactive Claude :
@@ -65,7 +65,7 @@ Ce pack de compétences transforme le flux de travail :
 1.  **Recherche :** Utilisez l'**Oracle** et le **Mapper** pour voir les effets d'entraînement invisibles.
 2.  **Planification :** Utilisez le **Simulator** pour valider l'impact architectural dans un bac à sable.
 3.  **Exécution :** Utilisez le **Slicer** pour des éditions de haute précision et à faible bruit.
-4.  **Vérification :** Utilisez le **Verifier** et le **Test Selector** pour garantir une fiabilité à 100 % avant que l'agent ne dise "Terminé".
+4.  **Vérification :** Utilisez le **Verifier** et le **Test Selector** pour garantir une fiabilité à 100 % avant que Claude ne dise "Terminé".
 
 ---
 

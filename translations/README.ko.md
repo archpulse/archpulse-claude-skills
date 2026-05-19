@@ -46,15 +46,15 @@ cp -r skills/* ~/.claude/skills/
 
 | 스킬 | 핵심 개념 | 해결되는 문제 |
 |------|-----------|---------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | 필수 멀티 엔진 검증 | 빌드를 깨뜨리는 "완료"라는 주장 |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | 전이적 의존성 분석 | 공통 코드의 숨겨진 회귀 오류 |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | 동적 경계 강제 적용 | 환각된 임포트 및 아키텍처 드리프트 |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | 레벤슈타인 기반 루프 중단 | 끝없이 반복되는 실패하는 수정 시도 |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | 정밀한 AST 심볼 추출 | 큰 파일에서의 컨텍스트 비대화 및 노이즈 |
-| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | 자율 TDD 재현 스크립트 | 객관적으로 증명되지 않은 수정 사항 |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Git 기반 논리적 결합 | 관련된 설정/스키마 누락 방지 |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | 그래프 기반 타겟 테스트 | 느린 테스트 수트로 인한 테스트 무시 |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | 격리된 VFS 사전 점검 | 저장소를 깨뜨리는 다중 파일 수정 |
+| **🛡️ [Zero-Trust Verifier](../skills/zero-trust-verifier/SKILL.md)** | 필수 멀티 엔진 검증 | 빌드를 깨뜨리는 "완료"라는 주장 |
+| **🔮 [Blast Radius Oracle](../skills/blast-radius-oracle/SKILL.md)** | 전이적 의존성 분석 | 공통 코드의 숨겨진 회귀 오류 |
+| **🏰 [Architectural Sentinel](../skills/architectural-drift-sentinel/SKILL.md)** | 동적 경계 강제 적용 | 환각된 임포트 및 아키텍처 드리프트 |
+| **🛑 [Anti-Loop Supervisor](../skills/anti-loop-supervisor/SKILL.md)** | 레벤슈타인 기반 루프 중단 | 끝없이 반복되는 실패하는 수정 시도 |
+| **🔪 [Context Slicer](../skills/context-slicer/SKILL.md)** | 정밀한 AST 심볼 추출 | 큰 파일에서의 컨텍스트 비대화 및 노이즈 |
+| **🧪 [Regression Sentinel](../skills/regression-sentinel/SKILL.md)** | 자율 TDD 재현 스크립트 | 객관적으로 증명되지 않은 수정 사항 |
+| **🔗 [Temporal Mapper](../skills/temporal-coupling-mapper/SKILL.md)** | Git 기반 논리적 결합 | 관련된 설정/스키마 누락 방지 |
+| **🎯 [Semantic Test Selector](../skills/semantic-test-selector/SKILL.md)** | 그래프 기반 타겟 테스트 | 느린 테스트 수트로 인한 테스트 무시 |
+| **🏗️ [Shadow Patch Simulator](../skills/shadow-patch-simulator/SKILL.md)** | 격리된 VFS 사전 점검 | 저장소를 깨뜨리는 다중 파일 수정 |
 | **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | 원자적 컨벤셔널 커밋 | 지저분한 워크스페이스 및 손상된 git status |
 
 ---

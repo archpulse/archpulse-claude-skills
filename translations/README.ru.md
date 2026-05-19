@@ -46,15 +46,15 @@ cp -r skills/* ~/.claude/skills/
 
 | Навык | Ключевая концепция | Решаемая проблема |
 |-------|----------------|------------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Обязательная мульти-движковая верификация | Заявления «готово», которые ломают сборку |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Транзитивный анализ зависимостей | Скрытые регрессии в общем коде |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Динамическое обеспечение границ | Галлюцинированные импорты и дрейф |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Прерывание циклов на основе Левенштейна | Бесконечные повторные попытки правок |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Хирургическое извлечение AST-символов | Раздувание контекста и шум в файлах |
-| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Автономные TDD-скрипты репродукции | Исправления, не доказанные объективно |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Логическая связь на основе Git | Забытые связанные конфиги/схемы |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Таргетированное тестирование по графу | Игнорирование тестов из-за медленных наборов |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Изолированные проверки в VFS | Правки многих файлов, ломающие репо |
+| **🛡️ [Zero-Trust Verifier](../skills/zero-trust-verifier/SKILL.md)** | Обязательная мульти-движковая верификация | Заявления «готово», которые ломают сборку |
+| **🔮 [Blast Radius Oracle](../skills/blast-radius-oracle/SKILL.md)** | Транзитивный анализ зависимостей | Скрытые регрессии в общем коде |
+| **🏰 [Architectural Sentinel](../skills/architectural-drift-sentinel/SKILL.md)** | Динамическое обеспечение границ | Галлюцинированные импорты и дрейф |
+| **🛑 [Anti-Loop Supervisor](../skills/anti-loop-supervisor/SKILL.md)** | Прерывание циклов на основе Левенштейна | Бесконечные повторные попытки правок |
+| **🔪 [Context Slicer](../skills/context-slicer/SKILL.md)** | Хирургическое извлечение AST-символов | Раздувание контекста и шум в файлах |
+| **🧪 [Regression Sentinel](../skills/regression-sentinel/SKILL.md)** | Автономные TDD-скрипты репродукции | Исправления, не доказанные объективно |
+| **🔗 [Temporal Mapper](../skills/temporal-coupling-mapper/SKILL.md)** | Логическая связь на основе Git | Забытые связанные конфиги/схемы |
+| **🎯 [Semantic Test Selector](../skills/semantic-test-selector/SKILL.md)** | Таргетированное тестирование по графу | Игнорирование тестов из-за медленных наборов |
+| **🏗️ [Shadow Patch Simulator](../skills/shadow-patch-simulator/SKILL.md)** | Изолированные проверки в VFS | Правки многих файлов, ломающие репо |
 | **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Атомарные конвенциональные коммиты | Грязное пространство и сломанный git status |
 
 ---

@@ -46,15 +46,15 @@ Ces compétences utilisent de manière intensive **CodePulse**, l'**analyse AST*
 
 | Compétence | Concept clé | Problème résolu |
 |------------|-------------|-----------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Vérification multi-moteur obligatoire | Prétentions "terminé" qui cassent le build |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Analyse transitive des dépendances | Régressions cachées dans le code partagé |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Respect dynamique des frontières | Imports hallucinés et dérive architecturale |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Arrêt des boucles basé sur Levenshtein | Tentatives de correction répétitives infinies |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Extraction chirurgicale de symboles AST | Gonflement du contexte et bruit dans les fichiers |
-| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Scripts de repro TDD autonomes | Corrections non prouvées objectivement |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Couplage logique basé sur Git | Oubli des configurations/schémas liés |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Tests ciblés basés sur le graphe | Tests ignorés à cause de suites lentes |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Vérifications VFS isolées | Corrections multi-fichiers qui cassent le repo |
+| **🛡️ [Zero-Trust Verifier](../skills/zero-trust-verifier/SKILL.md)** | Vérification multi-moteur obligatoire | Prétentions "terminé" qui cassent le build |
+| **🔮 [Blast Radius Oracle](../skills/blast-radius-oracle/SKILL.md)** | Analyse transitive des dépendances | Régressions cachées dans le code partagé |
+| **🏰 [Architectural Sentinel](../skills/architectural-drift-sentinel/SKILL.md)** | Respect dynamique des frontières | Imports hallucinés et dérive architecturale |
+| **🛑 [Anti-Loop Supervisor](../skills/anti-loop-supervisor/SKILL.md)** | Arrêt des boucles basé sur Levenshtein | Tentatives de correction répétitives infinies |
+| **🔪 [Context Slicer](../skills/context-slicer/SKILL.md)** | Extraction chirurgicale de symboles AST | Gonflement du contexte et bruit dans les fichiers |
+| **🧪 [Regression Sentinel](../skills/regression-sentinel/SKILL.md)** | Scripts de repro TDD autonomes | Corrections non prouvées objectivement |
+| **🔗 [Temporal Mapper](../skills/temporal-coupling-mapper/SKILL.md)** | Couplage logique basé sur Git | Oubli des configurations/schémas liés |
+| **🎯 [Semantic Test Selector](../skills/semantic-test-selector/SKILL.md)** | Tests ciblés basés sur le graphe | Tests ignorés à cause de suites lentes |
+| **🏗️ [Shadow Patch Simulator](../skills/shadow-patch-simulator/SKILL.md)** | Vérifications VFS isolées | Corrections multi-fichiers qui cassent le repo |
 | **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Commits conventionnels atomiques | Espace de travail encombré et git status cassé |
 
 ---

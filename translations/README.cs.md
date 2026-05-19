@@ -46,15 +46,15 @@ Tyto dovednosti agresivně využívají **CodePulse**, **AST analýzu** a **Git 
 
 | Dovednost | Klíčový koncept | Řešený problém |
 |-----------|-----------------|----------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Povinná multi-engine verifikace | Tvrzení „hotovo“, která rozbijí build |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Tranzitivní analýza závislostí | Skryté regrese ve sdíleném kódu |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Dynamické vynucování hranic | Halucinované importy a drift |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Přerušení smyček na bázi Levenshteina | Nekonečné opakované pokusy o opravy |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Chirurgická extrakce AST symbolů | Bobtnání kontextu a šum v souborech |
-| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Autonomní TDD repro skripty | Opravy, které nejsou objektivně prokázány |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Logická vazba na bázi Gitu | Zapomenuté související konfigurace/schémata |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Cílené testování podle grafu | Ignorování testů kvůli pomalým sadám |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Izolované kontroly ve VFS | Úpravy mnoha souborů, které rozbijí repo |
+| **🛡️ [Zero-Trust Verifier](../skills/zero-trust-verifier/SKILL.md)** | Povinná multi-engine verifikace | Tvrzení „hotovo“, která rozbijí build |
+| **🔮 [Blast Radius Oracle](../skills/blast-radius-oracle/SKILL.md)** | Tranzitivní analýza závislostí | Skryté regrese ve sdíleném kódu |
+| **🏰 [Architectural Sentinel](../skills/architectural-drift-sentinel/SKILL.md)** | Dynamické vynucování hranic | Halucinované importy a drift |
+| **🛑 [Anti-Loop Supervisor](../skills/anti-loop-supervisor/SKILL.md)** | Přerušení smyček na bázi Levenshteina | Nekonečné opakované pokusy o opravy |
+| **🔪 [Context Slicer](../skills/context-slicer/SKILL.md)** | Chirurgická extrakce AST symbolů | Bobtnání kontextu a šum v souborech |
+| **🧪 [Regression Sentinel](../skills/regression-sentinel/SKILL.md)** | Autonomní TDD repro skripty | Opravy, které nejsou objektivně prokázány |
+| **🔗 [Temporal Mapper](../skills/temporal-coupling-mapper/SKILL.md)** | Logická vazba na bázi Gitu | Zapomenuté související konfigurace/schémata |
+| **🎯 [Semantic Test Selector](../skills/semantic-test-selector/SKILL.md)** | Cílené testování podle grafu | Ignorování testů kvůli pomalým sadám |
+| **🏗️ [Shadow Patch Simulator](../skills/shadow-patch-simulator/SKILL.md)** | Izolované kontroly ve VFS | Úpravy mnoha souborů, které rozbijí repo |
 | **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Atomické konvenční commity | Nepořádek v workspace a nefunkční git status |
 
 ---

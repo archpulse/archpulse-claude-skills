@@ -46,15 +46,15 @@ Diese Skills nutzen **CodePulse**, **AST-Analyse** und die **Git-Historie** inte
 
 | Skill | Kernkonzept | Gelöstes Problem |
 |-------|-------------|------------------|
-| **🛡️ [Zero-Trust Verifier](../docs/ZERO_TRUST.md)** | Obligatorische Multi-Engine-Verifizierung | „Fertig“-Behauptungen, die den Build zerstören |
-| **🔮 [Blast Radius Oracle](../docs/BLAST_RADIUS.md)** | Transitive Abhängigkeitsanalyse | Versteckte Regressionen in shared code |
-| **🏰 [Architectural Sentinel](../docs/ARCHITECTURE.md)** | Dynamische Durchsetzung von Grenzen | Halluzinierte Importe & Architektur-Drift |
-| **🛑 [Anti-Loop Supervisor](../docs/ANTI_LOOP.md)** | Levenshtein-basierter Schleifenabbruch | Endlose, sich wiederholende Korrekturversuche |
-| **🔪 [Context Slicer](../docs/CONTEXT_SLICER.md)** | Chirurgische Extraktion von AST-Symbolen | Kontext-Aufblähung & Rauschen in großen Dateien |
-| **🧪 [Regression Sentinel](../docs/REGRESSION.md)** | Autonome TDD-Repro-Skripte | Korrekturen, die nicht objektiv bewiesen sind |
-| **🔗 [Temporal Mapper](../docs/TEMPORAL_COUPLING.md)** | Git-basierte logische Kopplung | Vergessene zugehörige Configs/Schemas |
-| **🎯 [Semantic Test Selector](../docs/TEST_SELECTOR.md)** | Graphbasiertes gezieltes Testen | Ignorieren von Tests wegen langsamer Suites |
-| **🏗️ [Shadow Patch Simulator](../docs/SHADOW_PATCH.md)** | Isolierte VFS-Vorabprüfungen | Multi-File-Korrekturen, die das Repo zerstören |
+| **🛡️ [Zero-Trust Verifier](../skills/zero-trust-verifier/SKILL.md)** | Obligatorische Multi-Engine-Verifizierung | „Fertig“-Behauptungen, die den Build zerstören |
+| **🔮 [Blast Radius Oracle](../skills/blast-radius-oracle/SKILL.md)** | Transitive Abhängigkeitsanalyse | Versteckte Regressionen in shared code |
+| **🏰 [Architectural Sentinel](../skills/architectural-drift-sentinel/SKILL.md)** | Dynamische Durchsetzung von Grenzen | Halluzinierte Importe & Architektur-Drift |
+| **🛑 [Anti-Loop Supervisor](../skills/anti-loop-supervisor/SKILL.md)** | Levenshtein-basierter Schleifenabbruch | Endlose, sich wiederholende Korrekturversuche |
+| **🔪 [Context Slicer](../skills/context-slicer/SKILL.md)** | Chirurgische Extraktion von AST-Symbolen | Kontext-Aufblähung & Rauschen in großen Dateien |
+| **🧪 [Regression Sentinel](../skills/regression-sentinel/SKILL.md)** | Autonome TDD-Repro-Skripte | Korrekturen, die nicht objektiv bewiesen sind |
+| **🔗 [Temporal Mapper](../skills/temporal-coupling-mapper/SKILL.md)** | Git-basierte logische Kopplung | Vergessene zugehörige Configs/Schemas |
+| **🎯 [Semantic Test Selector](../skills/semantic-test-selector/SKILL.md)** | Graphbasiertes gezieltes Testen | Ignorieren von Tests wegen langsamer Suites |
+| **🏗️ [Shadow Patch Simulator](../skills/shadow-patch-simulator/SKILL.md)** | Isolierte VFS-Vorabprüfungen | Multi-File-Korrekturen, die das Repo zerstören |
 | **📝 [Git Auto-Committer](../skills/git-auto-committer/SKILL.md)** | Atomare konventionelle Commits | Unordentlicher Workspace und defekter git status |
 
 ---
